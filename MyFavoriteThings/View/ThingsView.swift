@@ -18,6 +18,10 @@ struct ThingsView: View {
                 .font(.largeTitle)
             Text(providedThings.detail)
             
+            Image(providedThings.image)
+                .resizable()
+                .scaledToFit()
+            
         }
     }
 }
