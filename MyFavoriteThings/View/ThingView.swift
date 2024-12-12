@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct ThingsView: View {
+struct ThingView: View {
     
-    let providedThings: Things
+    let providedThing: Thing
     
     var body: some View {
         VStack(alignment: .leading) {
             
-            Text(providedThings.name)
+            Text(providedThing.name)
                 .font(.largeTitle)
-            Text(providedThings.detail)
+            Text(providedThing.detail)
             
-            Image(providedThings.image)
+            Image(providedThing.image)
                 .resizable()
                 .scaledToFit()
             
@@ -27,5 +27,5 @@ struct ThingsView: View {
 }
 
 #Preview {
-    ThingsView(providedThings: baseball)
+    ThingView(providedThing: baseball)
 }
