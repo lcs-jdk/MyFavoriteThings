@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1F66B3A12D0B454000A88FE5 /* MyFavoriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F66B3A02D0B454000A88FE5 /* MyFavoriteThingsApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1F66B39D2D0B454000A88FE5 /* MyFavoriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavoriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F66B3A02D0B454000A88FE5 /* MyFavoriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteThingsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		1F66B3942D0B454000A88FE5 = {
 			isa = PBXGroup;
 			children = (
+				1F66B3A02D0B454000A88FE5 /* MyFavoriteThingsApp.swift */,
 				1F66B39F2D0B454000A88FE5 /* MyFavoriteThings */,
 				1F66B39E2D0B454000A88FE5 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F66B3A12D0B454000A88FE5 /* MyFavoriteThingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
